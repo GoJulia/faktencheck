@@ -13,3 +13,5 @@
     1. Feature: OpenAI/ChatGPT auswerten, ob es für das Projekt verwendet werden kann 
         1. US: Als User möchte eine Frage an OpenAI über API senden und eine Antwort erhalten.
         1. US: Wir erhalten beim Aufruf der API eine Quota Meldung und OpenAI kann nicht verwendet werden.
+
+DUMMY
