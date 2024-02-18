@@ -9,7 +9,8 @@
 
 1. Epic: Als politisch interessierter Mensch führe ich politische Gespräche im Netz und real. Ich möchte dabei eine Hilfe haben um Fakten zu überprüfen und pro/contra Belege für Aussagen zu finden. Dazu brauche ich eine "App", wo ich Fragen oder Aussagen eingeben kann und verifizierte Belege erhalten kann.
     1. Feature: Projekt aufsetzen mit Poetry, Git/GitHub und Jupyter
-        1. US: Jupyter funktioniert bei Julia und Christian
+        1. US: CICD pipeline aufsetzen in GitHub
+        2. US: Jupyter funktioniert bei Julia und Christian
     1. Feature: OpenAI/ChatGPT auswerten, ob es für das Projekt verwendet werden kann 
         1. US: Als User möchte eine Frage an OpenAI über API senden und eine Antwort erhalten.
         1. US: Wir erhalten beim Aufruf der API eine Quota Meldung und OpenAI kann nicht verwendet werden.
