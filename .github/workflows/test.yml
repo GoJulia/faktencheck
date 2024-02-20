@@ -6,4 +6,4 @@ jobs:
     steps:
     - uses: rethab/bash-action@v1
       with:
-        who: 'Pinky'
+        command: 'pwd'
