@@ -1,0 +1,9 @@
+name: 'Test bash'
+on: [issues]
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: rethab/bash-action@v1
+      with:
+        who: 'Pinky'
