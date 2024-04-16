@@ -20,3 +20,9 @@ Hinweis: Um das Docker Image zu ändern, bitte `Dockerfile` bearbeiten.
     1. Feature: OpenAI/ChatGPT auswerten, ob es für das Projekt verwendet werden kann 
         1. US: Als User möchte eine Frage an OpenAI über API senden und eine Antwort erhalten.
         1. US: Wir erhalten beim Aufruf der API eine Quota Meldung und OpenAI kann nicht verwendet werden.
+
+## Projekt Logbuch 
+
+### 16.04.2024
+- Prompting + Fine tuning
+- Embeddings Tutorials https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
