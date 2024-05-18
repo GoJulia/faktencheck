@@ -21,7 +21,10 @@ Hinweis: Um das Docker Image zu ändern, bitte `Dockerfile` bearbeiten.
         1. US: Als User möchte eine Frage an OpenAI über API senden und eine Antwort erhalten.
         1. US: Wir erhalten beim Aufruf der API eine Quota Meldung und OpenAI kann nicht verwendet werden.
 
-## Projekt Logbuch 
+## Projekt Logbuch
+
+### 25.05.2024
+- Embeddings in die Tiefe und ausprobieren
 
 ### 16.04.2024
 - Prompting + Fine tuning
