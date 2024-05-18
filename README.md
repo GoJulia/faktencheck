@@ -26,6 +26,6 @@ Hinweis: Um das Docker Image zu ändern, bitte `Dockerfile` bearbeiten.
 ### 25.05.2024
 - Embeddings in die Tiefe und ausprobieren
 
-### 16.04.2024
+### 06.05.2024
 - Prompting + Fine tuning
 - Embeddings Tutorials https://platform.openai.com/docs/guides/embeddings/what-are-embeddings
