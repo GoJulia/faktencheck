@@ -62,6 +62,28 @@ Infrastruktur, wo läuft unser Docker Container: Azure, AWS, Google, Telekom
 
 ### 08.06.2024
 - eine Dummy AWS Lamda Function schreiben und zum laufen bringen in AWS
+**Ergebnis:**
+
+1. Image bauen
+```
+cd lambda
+docker build -t faktencheck_image:latest . 
+```
+
+2. Image ausführen und OPENAI API Key übergeben und Port 9000 lokal auf Port 8080 im Docker Image umbiegen
+```
+docker run -e OPENAI_API_KEY=$env:OPENAI_API_KEY -p 9000:8080 faktencheck_image:latest
+```
+
+3a. Event an Docker Container senden (Powershell Windows)
+```
+Invoke-WebRequest -Uri "http://localhost:9000/2015-03-31/functions/function/invocations" -Method Post -Body '{}' -ContentType "application/json"
+```
+
+3b. Event an Docker Container senden (Linux bash)
+```
+curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{ "question": "Wem gehört die Krim?" }' -v
+```
 
 ### 15.06.2024
 - Tiktok, Instagram, LinkedIn, Facebook, BluSky, Mastodon, X (letzte Bastion)
