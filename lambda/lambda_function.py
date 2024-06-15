@@ -7,7 +7,7 @@ def lambda_handler(event, context):
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex political concepts with journalistic flair."},
-            {"role": "user", "content": event }
+            {"role": "user", "content": event['question'] }
         ]
     )
     return { 'answer': completion.choices[0].message.content }
