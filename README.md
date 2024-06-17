@@ -85,10 +85,14 @@ Invoke-WebRequest -Uri "http://localhost:9000/2015-03-31/functions/function/invo
 curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{ "question": "Wem gehört die Krim?" }' -v
 ```
 
-### 15.06.2024
+### 22.06.2024
+- Docker Container mit trivialer OPENAI Funktion nicht nur lokal sondern auch bei AWS ausführen
+- faktencheck_image Docker Image in AWS ausführen
+
+### XX.XX.2024
 - Tiktok, Instagram, LinkedIn, Facebook, BluSky, Mastodon, X (letzte Bastion)
 - Bot Tutorial durchspielen
 - Outcome: Entscheidung welche SM Plattform
 
-### 22.06.2024
+### XX.XX.2024
 - Starten der Entwicklung: Klasse, Methoden
