@@ -84,10 +84,13 @@ Invoke-WebRequest -Uri "http://localhost:9000/2015-03-31/functions/function/invo
 ```
 curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{ "question": "Wem gehört die Krim?" }' -v
 ```
-
 ### 22.06.2024
-- Docker Container mit trivialer OPENAI Funktion nicht nur lokal sondern auch bei AWS ausführen
-- faktencheck_image Docker Image in AWS ausführen
+- Julia-local up to date bringen
+
+
+### 28.06.2024 14-16Uhr
+- Julia: Docker Container mit trivialer OPENAI Funktion nicht nur lokal sondern auch bei AWS ausführen
+- Julia: faktencheck_image Docker Image in AWS ausführen
 
 ### XX.XX.2024
 - Tiktok, Instagram, LinkedIn, Facebook, BluSky, Mastodon, X (letzte Bastion)
@@ -96,3 +99,4 @@ curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{ "qu
 
 ### XX.XX.2024
 - Starten der Entwicklung: Klasse, Methoden
+
